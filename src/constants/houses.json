@@ -1,0 +1,353 @@
+[
+  {
+    "popular": true,
+    "name": "Sunnyvale Apartments",
+    "direction": "1234 Maple Street, Sunnyvale, CA",
+    "cost": "1,800",
+    "information": {
+      "beds": 2,
+      "bathroom": 1,
+      "m2": "4x6"
+    },
+    "type": "rent",
+    "image": "https://images.adsttc.com/media/images/5d34/e507/284d/d109/5600/0240/newsletter/_FI.jpg"
+  },
+  {
+    "popular": false,
+    "name": "Lakeside Villa",
+    "direction": "5678 Lakeview Road, Orlando, FL",
+    "cost": "2,200",
+    "information": {
+      "beds": 3,
+      "bathroom": 2,
+      "m2": "6x8"
+    },
+    "type": "rent",
+    "image": "https://canalhogar.com/wp-content/uploads/2023/10/25-planos-y-Disenos-de-Casas-de-2-Pisos-Modernas-800x600.jpg"
+  },
+  {
+    "popular": true,
+    "name": "City Loft",
+    "direction": "910 Center Street, San Francisco, CA",
+    "cost": "3,500",
+    "information": {
+      "beds": 2,
+      "bathroom": 2,
+      "m2": "5x7"
+    },
+    "type": "rent",
+    "image": "https://media.admagazine.com/photos/63bf8e2447e50dfe1e2f49f7/master/pass/8.-Casa-Peru.jpg"
+  },
+  {
+    "popular": false,
+    "name": "Beachfront Condo",
+    "direction": "135 Ocean Drive, Miami, FL",
+    "cost": "2,800",
+    "information": {
+      "beds": 1,
+      "bathroom": 1,
+      "m2": "3x5"
+    },
+    "type": "rent",
+    "image": "https://images.adsttc.com/media/images/623c/4fa0/3e4b/3145/3000/001b/newsletter/_d_ambrosio_07._copy.jpg?1648119692"
+  },
+  {
+    "popular": true,
+    "name": "Mountain Retreat",
+    "direction": "246 Hillside Avenue, Denver, CO",
+    "cost": "2,000",
+    "information": {
+      "beds": 4,
+      "bathroom": 3,
+      "m2": "7x9"
+    },
+    "type": "rent",
+    "image": "https://theressa.net/images/projects/622cc1aa15990-FACH2.effectsResult-1600x1600.jpg"
+  },
+  {
+    "popular": false,
+    "name": "Urban Flat",
+    "direction": "789 Downtown Road, Los Angeles, CA",
+    "cost": "2,500",
+    "information": {
+      "beds": 3,
+      "bathroom": 2,
+      "m2": "5x6"
+    },
+    "type": "rent",
+    "image": "https://images.adsttc.com/media/images/5d34/e507/284d/d109/5600/0240/newsletter/_FI.jpg?1563747560"
+  },
+  {
+    "popular": true,
+    "name": "Suburban Home",
+    "direction": "1122 Elm Street, Springfield, IL",
+    "cost": "1,600",
+    "information": {
+      "beds": 3,
+      "bathroom": 1,
+      "m2": "4x5"
+    },
+    "type": "rent",
+    "image": "https://www.aram.pe/images/services/og/299-remodelacion-de-casas-5e9e5a650fb8d.jpg"
+  },
+  {
+    "popular": false,
+    "name": "Countryside Cottage",
+    "direction": "3344 Country Lane, Austin, TX",
+    "cost": "1,700",
+    "information": {
+      "beds": 2,
+      "bathroom": 2,
+      "m2": "4x6"
+    },
+    "type": "rent",
+    "image": "https://arquitectopablorestrepo.com/wp-content/uploads/2022/03/Dise%C3%B1o-casa-familiar-el-bambu-3-800x600.jpg"
+  },
+  {
+    "popular": true,
+    "name": "Riverfront Cabin",
+    "direction": "5566 River Road, Nashville, TN",
+    "cost": "1,900",
+    "information": {
+      "beds": 2,
+      "bathroom": 1,
+      "m2": "5x5"
+    },
+    "type": "rent",
+    "image": "https://arquitecturaviva.com/assets/uploads/articulos/71318/av_182045.webp?h=00ebdec0"
+  },
+  {
+    "popular": true,
+    "name": "Luxury Penthouse",
+    "direction": "123 Skyline Blvd, New York, NY",
+    "cost": "3,000,000",
+    "information": {
+      "beds": 4,
+      "bathroom": 3,
+      "m2": "8x10"
+    },
+    "type": "sell",
+    "image": "https://planoscasastop.com/wp-content/uploads/2021/08/wc-planos-casas-renders-cedro-12.jpg"
+  },
+  {
+    "popular": false,
+    "name": "Historic Mansion",
+    "direction": "456 Heritage Way, Charleston, SC",
+    "cost": "2,500,000",
+    "information": {
+      "beds": 6,
+      "bathroom": 5,
+      "m2": "10x12"
+    },
+    "type": "sell",
+    "image": "https://img10.naventcdn.com/avisos/111/01/43/19/99/78/360x266/1452228985.jpg"
+  },
+  {
+    "popular": true,
+    "name": "Modern Villa",
+    "direction": "789 Oceanfront Lane, Malibu, CA",
+    "cost": "5,000,000",
+    "information": {
+      "beds": 5,
+      "bathroom": 4,
+      "m2": "9x11"
+    },
+    "type": "sell",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJWf4ozC5S8aRhSoiFpCGFzmtSbPW_Ty1w&s"
+  },
+  {
+    "popular": false,
+    "name": "Cozy Bungalow",
+    "direction": "1011 Maple Street, Portland, OR",
+    "cost": "750,000",
+    "information": {
+      "beds": 3,
+      "bathroom": 2,
+      "m2": "6x8"
+    },
+    "type": "sell",
+    "image": "https://img10.naventcdn.com/avisos/111/01/42/96/79/67/360x266/1446244963.jpg?isFirstImage=true"
+  },
+  {
+    "popular": true,
+    "name": "Spacious Ranch",
+    "direction": "1213 Prairie Road, Dallas, TX",
+    "cost": "1,200,000",
+    "information": {
+      "beds": 4,
+      "bathroom": 3,
+      "m2": "7x9"
+    },
+    "type": "sell",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaMOyxayudztC_fi1UXYkoqP6B45WDOUqqaQ&s"
+  },
+  {
+    "popular": false,
+    "name": "Urban Townhouse",
+    "direction": "1415 City Center, Seattle, WA",
+    "cost": "950,000",
+    "information": {
+      "beds": 3,
+      "bathroom": 2,
+      "m2": "5x7"
+    },
+    "type": "sell",
+    "image": "https://media.revistaad.es/photos/60c2224cafd93bb56e45df39/master/w_1600%2Cc_limit/280927.jpg"
+  },
+  {
+    "popular": true,
+    "name": "Country Estate",
+    "direction": "1617 Farm Lane, Lexington, KY",
+    "cost": "2,200,000",
+    "information": {
+      "beds": 6,
+      "bathroom": 4,
+      "m2": "12x14"
+    },
+    "type": "sell",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/la-moraleja-sothevies-copia-1659264338.jpg?crop=0.662xw:1.00xh;0.00641xw,0&resize=640:*"
+  },
+  {
+    "popular": false,
+    "name": "Charming Cottage",
+    "direction": "1819 Forest Drive, Asheville, NC",
+    "cost": "600,000",
+    "information": {
+      "beds": 2,
+      "bathroom": 1,
+      "m2": "4x6"
+    },
+    "type": "sell",
+    "image": "https://comprarmicasa.com/wp-content/uploads/2017/02/Residencial-lujoso-campo-de-golf-San-Miguel-de-Salinas-Espa%C3%B1a.jpg"
+  },
+  {
+    "popular": true,
+    "name": "Lake House",
+    "direction": "2021 Lakeview Blvd, Minneapolis, MN",
+    "cost": "1,800,000",
+    "information": {
+      "beds": 4,
+      "bathroom": 3,
+      "m2": "8x9"
+    },
+    "type": "sell",
+    "image": "https://img.jamesedition.com/listing_images/2024/01/23/16/04/19/2ff72432-6123-42ca-8d48-353d738f338f/je/507x312xc.jpg"
+  },
+  {
+    "popular": true,
+    "name": "Family Home",
+    "direction": "123 Elm Street, Chicago, IL",
+    "cost": "400,000",
+    "information": {
+      "beds": 3,
+      "bathroom": 2,
+      "m2": "5x7"
+    },
+    "type": "buy",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/sothebys-baleares-1659266693.jpg"
+  },
+  {
+    "popular": false,
+    "name": "Starter House",
+    "direction": "456 Oak Avenue, Atlanta, GA",
+    "cost": "250,000",
+    "information": {
+      "beds": 2,
+      "bathroom": 1,
+      "m2": "4x6"
+    },
+    "type": "buy",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/luxuryestate-marbella-1658918744.jpeg?crop=1xw:1xh;center,top&resize=980:*"
+  },
+  {
+    "popular": true,
+    "name": "Downtown Condo",
+    "direction": "789 Main Street, Miami, FL",
+    "cost": "350,000",
+    "information": {
+      "beds": 2,
+      "bathroom": 2,
+      "m2": "5x7"
+    },
+    "type": "buy",
+    "image": "https://nuovit-homes.es/wp-content/uploads/2017/04/Las-mejores-casas-de-Espa%C3%B1a.jpg"
+  },
+  {
+    "popular": false,
+    "name": "Suburban Residence",
+    "direction": "1011 Suburbia Drive, Phoenix, AZ",
+    "cost": "450,000",
+    "information": {
+      "beds": 4,
+      "bathroom": 3,
+      "m2": "6x8"
+    },
+    "type": "buy",
+    "image": "https://as01.epimg.net/diarioas/imagenes/2022/03/21/actualidad/1647864649_959616_1647864758_noticia_normal.jpg"
+  },
+  {
+    "popular": true,
+    "name": "Country Villa",
+    "direction": "1213 Vineyard Road, Napa Valley, CA",
+    "cost": "600,000",
+    "information": {
+      "beds": 3,
+      "bathroom": 2,
+      "m2": "7x9"
+    },
+    "type": "buy",
+    "image": "https://okdiario.com/img/2023/05/30/atardecer-en-el-caserc3ado.jpg_s1024x1024wisk20cygqlwvyvdi16tjwrumworjpqmfnm8tdk1fddgq4etlq-635x358.jpg"
+  },
+  {
+    "popular": false,
+    "name": "Modern House",
+    "direction": "1415 Tech Park, Austin, TX",
+    "cost": "550,000",
+    "information": {
+      "beds": 3,
+      "bathroom": 2,
+      "m2": "6x8"
+    },
+    "type": "buy",
+    "image": "https://www.bienesonline.com/espana/photos/hermosa-casa-residencial-ubicada-en-isla-mocoli-el-sector-de-mayor-plusvalia-del-ecuador--CAV109551569071760-509.jpg"
+  },
+  {
+    "popular": true,
+    "name": "Historic Home",
+    "direction": "1617 Old Town Road, Boston, MA",
+    "cost": "500,000",
+    "information": {
+      "beds": 4,
+      "bathroom": 3,
+      "m2": "8x10"
+    },
+    "type": "buy",
+    "image": "https://static.spainhouses.net/sfotos/62527293/62527293_12319587_foto404616395.jpg"
+  },
+  {
+    "popular": false,
+    "name": "Luxury Condo",
+    "direction": "1819 Luxury Lane, Las Vegas, NV",
+    "cost": "700,000",
+    "information": {
+      "beds": 3,
+      "bathroom": 2,
+      "m2": "5x7"
+    },
+    "type": "buy",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/ubiko-la-can-ada-20-1656326441.jpg?crop=0.418xw:1.00xh;0.235xw,0&resize=640:*"
+  },
+  {
+    "popular": true,
+    "name": "Cottage Home",
+    "direction": "2021 Meadow Lane, Madison, WI",
+    "cost": "300,000",
+    "information": {
+      "beds": 2,
+      "bathroom": 1,
+      "m2": "4x6"
+    },
+    "type": "buy",
+    "image": "https://static.spainhouses.net/sfotos/67297467/67297467_12717143_foto_770346.jpg"
+  }
+]

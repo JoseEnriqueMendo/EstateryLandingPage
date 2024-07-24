@@ -4,7 +4,7 @@ import { RiArrowDownWideFill } from 'react-icons/ri';
 
 const NavBar = () => {
   return (
-    <nav className="h-[10vh] w-full bg-[#ffffff94]  flex px-14 py-4 overflow-hidden font-plusUltra font-semibold justify-between">
+    <nav className="h-[10vh] w-full bg-[#e9e8f7]  flex px-14 py-4 overflow-hidden font-plusUltra font-semibold justify-between sticky top-0 z-50">
       <div className=" flex  items-center gap-9">
         <span className="flex flex-row gap-2 items-center cursor-pointer hover:pb-0.5">
           <BsHouseHeartFill className="text-secundary opacity-100 " size={'30px'} />

@@ -8,7 +8,7 @@ export const CardInformation = ({ icon, title, bgCard, colorText, description })
   return (
     <div
       className={
-        'min-w-[25vw] min-h-[160px] rounded-md flex flex-row gap-8 py-4 px-5 font-plusUltra ' +
+        'hover:mb-1 min-w-[25vw] min-h-[160px] rounded-md flex flex-row gap-8 py-4 px-5 font-plusUltra ' +
         bgCard
       }
     >
@@ -33,15 +33,15 @@ export const CardSells = ({ popular, name, image, type, information, cost, direc
   return (
     <div
       className={
-        'min-w-[15vw] min-h-[160px] rounded-md flex flex-col gap-1  font-plusUltra bg-white relative'
+        'min-w-[15vw]  cursor-pointer hover:bg-[#e9e8f7] pb-2 min-h-[160px] rounded-md flex flex-col gap-1  font-plusUltra bg-white relative'
       }
     >
-      <img src={image} className="rounded-t-md " />
+      <img src={image} className="rounded-t-md  max-h-48" alt={type} />
 
-      <div className="py-2 px-4">
+      <div className="py-2 px-4 flex flex-col gap-1">
         <div
           className={
-            ' absolute flex flex-row items-center  gap-1 rounded-md bg-secundary  px-3 py-1 top-52 left-0 ' +
+            ' absolute flex flex-row items-center  gap-1 rounded-md bg-secundary  px-3 py-1 top-[165px] ' +
             (popular ? 'visible' : 'invisible')
           }
         >
@@ -49,17 +49,15 @@ export const CardSells = ({ popular, name, image, type, information, cost, direc
           <p className="text-white font-semibold">POPULAR</p>
         </div>
 
-        <p>{type}</p>
         <p>
-          <span className="text-secundary font-bold"> {`$${cost}`}</span>
-          <span className="opacity-60 font-semibold">/mes</span>
+          <span className="text-secundary font-bold text-xl"> {`$${cost}`}</span>
+          <span className="opacity-60 font-semibold text-[14px]">/mes</span>
         </p>
-        <p className="font-bold text-textDark">{name}</p>
-        <p className="opacity-60 ">{direction}</p>
-        <div className="flex flex-row gap-2">
+        <p className="font-bold text-textDark text-xl">{name}</p>
+        <p className="opacity-60 text-[14px]">{direction}</p>
+        <div className="flex flex-row justify-between border-t-[1px] pt-2 ">
           <span className="flex flex-row gap-1 items-center">
             <LiaBedSolid className="text-secundary" />
-
             <p className="opacity-75">{`${information.beds} camas`}</p>
           </span>
           <span className="flex flex-row gap-1 items-center">

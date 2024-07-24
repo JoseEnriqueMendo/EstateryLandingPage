@@ -3,12 +3,19 @@ import { PiMagnifyingGlassBold } from 'react-icons/pi';
 import { TiKeyOutline } from 'react-icons/ti';
 import { IoWalletOutline } from 'react-icons/io5';
 import { RiHomeLine } from 'react-icons/ri';
-import sell from '../constants/sell.json';
+import houses from '../constants/houses.json';
 import { CardSells } from './Cards';
 
 const Sells = () => {
+  const [housesArray, setHousesArray] = useState(
+    houses.filter((item) => item.type === 'rent')
+  );
   const [type, setType] = useState('rent');
-  const HouseArray = sell;
+
+  const onhandleClik = (type) => {
+    setType(type);
+    setHousesArray(houses.filter((item) => item.type === type));
+  };
 
   return (
     <div className="max-w-[100vw] min-h-[75vh] bg-[#ffffffcf] font-plusUltra flex flex-col items-center gap-3.5 p-10 ">
@@ -25,7 +32,7 @@ const Sells = () => {
                 ? 'bg-white py-1  px-2 rounded-md  text-secundary font-bold'
                 : 'bg-transparent text-textLigth')
             }
-            onClick={() => setType('rent')}
+            onClick={() => onhandleClik('rent')}
           >
             <TiKeyOutline size={'22px'} />
             <p>Rentar</p>
@@ -37,7 +44,7 @@ const Sells = () => {
                 ? 'bg-white py-1  px-2 rounded-md  text-secundary font-bold'
                 : 'bg-transparent text-textLigth')
             }
-            onClick={() => setType('buy')}
+            onClick={() => onhandleClik('buy')}
           >
             <IoWalletOutline size={'22px'} />
             <p>Comprar</p>
@@ -49,7 +56,7 @@ const Sells = () => {
                 ? 'bg-white py-1  px-2 rounded-md  text-secundary font-bold'
                 : 'bg-transparent text-textLigth')
             }
-            onClick={() => setType('sell')}
+            onClick={() => onhandleClik('sell')}
           >
             <RiHomeLine size={'22px'} />
 
@@ -67,35 +74,29 @@ const Sells = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-3 grid-flow-row items-center justify-between w-3/4 mt-5 gap-10">
-        <CardSells
-          type={HouseArray.type}
-          cost={HouseArray.cost}
-          direction={HouseArray.direction}
-          image={HouseArray.image}
-          information={HouseArray.information}
-          name={HouseArray.name}
-          popular={HouseArray.popular}
-        />
-        <CardSells
-          type={HouseArray.type}
-          cost={HouseArray.cost}
-          direction={HouseArray.direction}
-          image={HouseArray.image}
-          information={HouseArray.information}
-          name={HouseArray.name}
-          popular={HouseArray.popular}
-        />
-        <CardSells
-          type={HouseArray.type}
-          cost={HouseArray.cost}
-          direction={HouseArray.direction}
-          image={HouseArray.image}
-          information={HouseArray.information}
-          name={HouseArray.name}
-          popular={HouseArray.popular}
-        />
+      <div className="grid grid-cols-3 grid-flow-row items-center justify-between w-3/4 mt-5 gap-14 overflow-hidden">
+        {housesArray
+          .filter((item) => item.type === type)
+          .slice(0, 9)
+          .map((item, index) => {
+            return (
+              <CardSells
+                key={index}
+                type={item.type}
+                cost={item.cost}
+                direction={item.direction}
+                image={item.image}
+                information={item.information}
+                name={item.name}
+                popular={item.popular}
+              />
+            );
+          })}
       </div>
+
+      <a className="mx-auto p-3 mt-5 bg-dark text-white rounded-md font-semibold cursor-pointer hover:bg-secundaryDark">
+        Explorar más propiedades{' '}
+      </a>
     </div>
   );
 };
