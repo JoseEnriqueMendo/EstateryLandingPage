@@ -6,10 +6,10 @@ const ContactUS = () => {
       <p className="text-textDark opacity-60 text-[14px]">
         Descubra formas de aumentar el valor de su casa y cotizar en la lista. No es basura.
       </p>
-      <div className="relative w-[40%] overflow-hidden">
+      <div className="relative w-[40%] overflow-hidden hover:border ">
         <input
           placeholder="Introduce tu dirección de correo"
-          className="p-6 w-full text-textDark opacity-80 rounded-md"
+          className="p-6 w-full text-textDark opacity-80 rounded-md "
         />
         <button className="bg-secundary px-4 py-2 absolute  rounded-md text-white left-[85%] top-4  ">
           Enviar
