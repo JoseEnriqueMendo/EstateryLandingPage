@@ -9,12 +9,12 @@ const MainSection = () => {
   const [type, SetType] = useState('rent');
 
   return (
-    <div className="max-w-[100vw] max-h-[90vh]  h-[90vh] bg-[#E3E1F8] font-plusUltra flex flex-row  justify-around overflow-hidden">
-      <div className="min-w-1/2 w-1/2 pl-[7%] pr-[4%] flex flex-col gap-6">
-        <p className="font-bold text-6xl text-textDark mt-[8%] ">
+    <div className="max-w-[100vw] max-h-[90vh]  h-[90vh] bg-[#E3E1F8] font-plusUltra flex flex-row  justify-around overflow-hidden max-lg:h-fit max-lg:mb-10">
+      <div className="min-w-1/2 w-1/2 pl-[7%] pr-[4%] flex flex-col gap-6 max-lg:w-full">
+        <p className="font-bold text-6xl text-textDark mt-[8%] max-sm:text-center max-sm:text-4xl">
           Compra, alquila o vende tu propiedad fácilmente
         </p>
-        <p className="text-textDark font-semibold ">
+        <p className="text-textDark font-semibold max-sm:text-center ">
           Una gran plataforma para comprar, vender o incluso alquilar tus propiedades sin
           comisiones.
         </p>
@@ -48,19 +48,23 @@ const MainSection = () => {
               Vender
             </p>
           </div>
-          <div className="bg-white z-40 w-full h-28 rounded-b-md rounded-r-md flex flex-row justify-around p-4 items-center">
-            <span className="flex flex-col gap-1">
-              <p className="text-textDark opacity-60 font-bold text-xs">Ubicación</p>
-              <p className="text-textDark font-bold">Barcelona, Spain</p>
-            </span>
-            <span className="bg-ligth w-[1px] h-1/2"> </span>
-            <span className="flex flex-col gap-2">
-              <p className="text-textDark opacity-60 font-semibold text-xs">Cuando</p>
-              <p className="text-textDark font-bold">Select Move-in Date</p>
-            </span>
-            <span className="bg-ligth w-[1px] h-1/2"> </span>
-            <button className="cursor-pointer bg-secundary h-[60%] p-4 rounded-md text-white flex items-center hover:bg-secundaryDark">
-              Explorar propiedades
+          <div className="bg-white z-40 w-full h-28 rounded-b-md rounded-r-md flex flex-row justify-around p-4 items-center max-md:flex-col max-md:h-fit ">
+            <div className="bg-white z-40 w-full h-28 rounded-b-md rounded-r-md flex flex-row justify-around p-4 items-center ">
+              <span className="flex flex-col gap-1">
+                <p className="text-textDark opacity-60 font-bold text-xs">Ubicación</p>
+                <p className="text-textDark font-bold  max-xl:text-[15px]">Barcelona, Spain</p>
+              </span>
+              <span className="bg-ligth w-[1px]  mx-3 h-1/2"> </span>
+              <span className="flex flex-col gap-2">
+                <p className="text-textDark opacity-60 font-semibold text-xs">Cuando</p>
+                <p className="text-textDark font-bold max-xl:text-[15px]">
+                  Select Move-in Date
+                </p>
+              </span>
+              <span className="bg-ligth w-[1px] h-1/2 max-md:hidden"> </span>
+            </div>
+            <button className="cursor-pointer bg-secundary h-[60%] p-4 py-8 max-md:py-4 rounded-md text-white flex items-center  justify-center hover:bg-secundaryDark max-md:w-3/4 ">
+              <p> Explorar propiedades</p>
             </button>
           </div>
         </div>
@@ -104,10 +108,10 @@ const MainSection = () => {
           </div>
         </div>
       </div>
-      <div className="min-w-1/2 w-1/2 relative overflow-hidden flex  ">
+      <div className="min-w-1/2 w-1/2 relative overflow-hidden flex max-lg:hidden ">
         <img src={'house21.svg'} className=" object-cover  h-[700px]   " />
 
-        <div className="absolute top-[8%] bg-white min-h-64 w-[35%] rounded-md  flex flex-col gap-3">
+        <div className="absolute top-[8%] bg-white min-h-64 w-[35%] rounded-md  flex flex-col gap-3 max-xl:w-[45%]">
           <div className="flex flex-row items-center p-4 gap-4 w-full ">
             <img
               src={

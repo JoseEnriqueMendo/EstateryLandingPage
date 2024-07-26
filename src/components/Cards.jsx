@@ -33,15 +33,15 @@ export const CardSells = ({ popular, name, image, type, information, cost, direc
   return (
     <div
       className={
-        'min-w-[15vw]  cursor-pointer hover:bg-[#e9e8f7] pb-2 min-h-[160px] rounded-md flex flex-col gap-1  font-plusUltra bg-white relative'
+        'min-w-[20vw] max-md:min-w-[40vw]  max-sm:min-w-[80vw]  cursor-pointer hover:bg-[#e9e8f7] pb-2 min-h-[160px] rounded-md flex flex-col gap-1  font-plusUltra bg-white relative'
       }
     >
-      <img src={image} className="rounded-t-md  max-h-48" alt={type} />
+      <img src={image} className="rounded-t-md  max-h-48 h-48" alt={type} />
 
       <div className="py-2 px-4 flex flex-col gap-1">
         <div
           className={
-            ' absolute flex flex-row items-center  gap-1 rounded-md bg-secundary  px-3 py-1 top-[165px] ' +
+            ' absolute flex flex-row items-center  gap-1 rounded-md bg-secundary  px-3 py-1 top-[50%] ' +
             (popular ? 'visible' : 'invisible')
           }
         >
@@ -54,8 +54,8 @@ export const CardSells = ({ popular, name, image, type, information, cost, direc
           <span className="opacity-60 font-semibold text-[14px]">/mes</span>
         </p>
         <p className="font-bold text-textDark text-xl">{name}</p>
-        <p className="opacity-60 text-[14px]">{direction}</p>
-        <div className="flex flex-row justify-between border-t-[1px] pt-2 ">
+        <p className="opacity-60 text-[14px] truncate">{direction}</p>
+        <div className="flex flex-row justify-between border-t-[1px] pt-2 max-lg:text-[13px]">
           <span className="flex flex-row gap-1 items-center">
             <LiaBedSolid className="text-secundary" />
             <p className="opacity-75">{`${information.beds} camas`}</p>
@@ -67,7 +67,10 @@ export const CardSells = ({ popular, name, image, type, information, cost, direc
           <span className="flex flex-row gap-1 items-center">
             <TbMeterSquare className="text-secundary" />
 
-            <p className="opacity-75">{`${information.m2}m^`}</p>
+            <p className="opacity-75">
+              {`${information.m2}m`}
+              <sup>2</sup>
+            </p>
           </span>
         </div>
       </div>

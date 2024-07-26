@@ -19,12 +19,12 @@ const Sells = () => {
 
   return (
     <div className="max-w-[100vw] min-h-[75vh] bg-[#ffffffcf] font-plusUltra flex flex-col items-center gap-3.5 p-10 ">
-      <p className="font-bold text-3xl">Basado según tu ubicación</p>
-      <p className="text-[14px] opacity-65">
+      <p className="font-bold text-3xl max-sm:text-center">Basado según tu ubicación</p>
+      <p className="text-[14px] opacity-65 max-sm:text-center">
         Algunas de nuestras propiedades seleccionadas cerca de su ubicación.
       </p>
-      <div className="flex flex-row items-center justify-between w-3/4 mt-5">
-        <div className="flex flex-row justify-around w-1/3 bg-[#F2F1FC] p-2 rounded-md items-center border-[#cdc9efc7]  border">
+      <div className="flex flex-row items-center justify-between w-3/4  mt-5  max-lg:flex-col gap-5  max-xl:w-[85%]  max-sm:w-full">
+        <div className=" flex flex-row justify-around gap-2  w-[33%] max-xl:w-[40%] overflow-hidden bg-[#F2F1FC] p-2 rounded-md items-center border-[#cdc9efc7]  border max-lg:w-full">
           <span
             className={
               'cursor-pointer flex flex-row gap-1 items-center ' +
@@ -63,7 +63,7 @@ const Sells = () => {
             <p>Vender</p>
           </span>
         </div>
-        <div className="w-1/3 relative">
+        <div className="w-1/3 relative max-lg:w-full">
           <PiMagnifyingGlassBold
             className="absolute text-secundary font-bold top-3 left-2 cursor-pointer"
             size={'30px'}
@@ -74,7 +74,7 @@ const Sells = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-3 grid-flow-row items-center justify-between w-3/4 mt-5 gap-14 overflow-hidden">
+      <div className="grid grid-cols-3 grid-flow-row items-center justify-between w-3/4  mt-5 gap-14  max-sm:w-full max-xl:grid-cols-2 max-xl:w-[85%] overflow-auto   max-md:grid-flow-col   max-md:grid-rows-none max-md:grid-cols-none ">
         {housesArray
           .filter((item) => item.type === type)
           .slice(0, 9)
@@ -95,7 +95,7 @@ const Sells = () => {
       </div>
 
       <a className="mx-auto p-3 mt-5 bg-dark text-white rounded-md font-semibold cursor-pointer hover:bg-secundaryDark">
-        Explorar más propiedades{' '}
+        Explorar más propiedades
       </a>
     </div>
   );

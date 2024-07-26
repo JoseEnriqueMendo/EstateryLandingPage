@@ -7,12 +7,12 @@ const Information = () => {
   return (
     <div className="max-w-[100vw] min-h-[75vh] bg-dark font-plusUltra flex flex-col items-center gap-10 justify-around p-10">
       <div className="flex flex-row  w-full justify-around max-md:flex-col max-lg:gap-10 max-lg:flex-col max-lg:items-center">
-        <p className="text-white text-4xl font-semibold w-[40%] max-lg:w-full ">
+        <p className="text-white text-4xl font-semibold w-[40%] max-lg:w-full max-sm:text-center">
           Se lo ponemos fácil a <span className="text-secundary">inquilinos </span> y
           <span className="text-secundary"> propietarios.</span>
         </p>
 
-        <p className="text-white text-[14px] opacity-60 w-[25%] max-lg:w-full ">
+        <p className="text-white text-[14px] opacity-60 w-[25%] max-lg:w-full max-sm:text-center">
           Ya sea vender su casa actual, obtener financiamiento o comprar una casa nueva, lo
           hacemos fácil y eficiente. ¿La mejor parte? Ahorrará mucho dinero y tiempo con
           nuestros servicios.

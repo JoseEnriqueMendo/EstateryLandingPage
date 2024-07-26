@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <div className="bg-white w-full  font-plusUltra ">
       <div className="flex flex-row w-full text-textDark text-[15px] items-start justify-around py-10 max-sm:flex-col max-sm:gap-10">
-        <span className="flex flex-row gap-2 items-center cursor-pointer  my-auto  pl-5 max-sm:mx-auto">
+        <span className="flex flex-row gap-2 items-center cursor-pointer  my-auto  pl-10 max-sm:mx-auto">
           <BsHouseHeartFill className="text-secundary" size={'30px'} />
           <p className=" font-bold text-xl  ">Estatery</p>
         </span>
-        <div className="flex flex-row   max-lg:gap-5 max-lg:w-fit max-sm:mx-auto w-full justify-center">
+        <div className="flex flex-row   max-lg:gap-5 max-lg:w-fit max-sm:mx-auto w-full justify-center ">
           <div className="flex flex-row justify-around w-[50%] max-lg:flex-col  max-lg:gap-5 max-lg:w-fit">
             <ul className="flex flex-col gap-2">
               <li className="font-semibold ">
@@ -92,8 +92,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full border-t-2  py-6 flex items-center justify-around ">
-        <p className="text-sm text-textDark opacity-50">©2021 Estatery. All rights reserved</p>
+      <div className="w-full border-t-2  py-6 flex items-center justify-around max-sm:flex-col max-sm:gap-5">
+        <p className="text-sm text-textDark opacity-50 ">
+          ©2021 Estatery. All rights reserved
+        </p>
         <span className="text-textDark opacity-40 flex flex-row gap-6">
           <FaFacebookF className="size-5" />
           <FaInstagram className="size-5" />
